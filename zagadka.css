@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url('bktlo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+button {
+    border: none;
+    background-color: #BE94B8;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 1rem;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+#zdj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 20px; /* Dostosuj odległość między zdjęciem a przyciskiem */
+}
+
+#zdj img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#btn {
+    margin-top: 20px; /* Dostosuj odległość przycisku od innych elementów */
+}
+
+/* Responsywny CSS dla mniejszych ekranów (np. telefony) */
+@media (max-width: 768px) {
+    #zdj {
+        margin-bottom: -90px; /* Dostosuj odległość dla urządzeń mobilnych */
+    }
+
+    h1 {
+        font-size: 15px; /* Dostosuj rozmiar czcionki dla mniejszych ekranów */
+        margin-bottom: 10px; /* Dostosuj margines dla mniejszych ekranów */
+    }
+    
+    #btn {
+        margin-top: 20px; /* Przesuń przycisk wyżej na stronie */
+    }
+}

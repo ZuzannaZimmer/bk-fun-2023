@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url('bktlo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+*{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 16px; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.inputFile{
+    display: none;
+}
+.fileText{
+    margin-bottom: 10px;
+    color:white;
+}
+
+label{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #4a4848;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background: rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+button{
+    font-size: 16px; /* Dostosowany rozmiar czcionki */
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.822);
+    color: #4a4848;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    width: 170px; 
+}
+
+.bar {
+    height: 50px;
+    width: 500px;
+    background: #5b5a5a73;
+    margin-bottom: 10px;
+}
+
+.uploadPercentage{
+
+    font-size: 25px;
+}
+
+.img{
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    display: none;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+.imageUploaded{
+    margin-top: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    max-width: 80%; 
+    margin: 20px; 
+    overflow-wrap: break-word;
+    
+}
+
+h1 {
+    color: white;
+    margin: 10px 20px; 
+    text-align: center;
+    font-size: 24px; 
+    margin-bottom: 40px;
+    
+}
+
+
+.statusText {
+    color:white;
+}
+
+#text-input {
+    position: relative;
+    padding: 3px 5px;
+    width: 100%;
+    width: 150px;
+    text-align: center; 
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input::placeholder {
+    font-size: 10px;
+        
+  }
+  
+
